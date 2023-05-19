@@ -1,10 +1,11 @@
 # chatbot-pizzaria
 
-## Setup
+## How to run
 
 ```bash
-$ python -m venv .venv
-$ source .venv/bin/activate
-$ pip install -r requirements.txt
-$ streamlit run app.py
+docker-compose up --build
 ```
+
+## Open in browser
+
+[http://localhost:8001](http://localhost:8001)
